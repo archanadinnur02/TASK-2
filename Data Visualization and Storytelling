@@ -1,0 +1,70 @@
+Step-by-Step Plan
+🔹 1. Understand the Dataset
+Use the Superstore.csv dataset. Explore key fields:
+
+Order Date, Ship Date
+
+Sales, Profit, Quantity
+
+Product Category, Sub-Category
+
+Region, State, City
+
+Customer Segment
+
+🔹 2. Choose a Business Theme / Story
+Pick a compelling business question:
+
+“Which regions/products are most profitable?”
+
+“Where are we losing money?”
+
+“Which customer segments drive the most sales?”
+
+“What shipping modes are least efficient?”
+
+📌 Storyline Example:
+
+“How can the Superstore improve profitability across segments and regions?”
+
+📊 Visualization Ideas
+Chart Type	Use For	Example
+Bar Chart	Compare across categories	Profit by Region
+Line Chart	Trends over time	Monthly Sales Trend
+Tree Map	Proportions within a hierarchy	Sales by Category/Sub-Category
+Map	Geographic analysis	Sales & Profit by State
+Pie Chart	Parts of whole (use sparingly)	Sales by Segment
+Heatmap	Correlation matrix or sales by weekday/hour	Sales by Day/Time
+
+📌 Best Practices
+✔ Highlight Key Insights:
+Use annotations or summary text to show:
+
+Top-performing product
+
+Region with highest loss
+
+Unexpected trend
+
+✔ Reduce Clutter:
+Limit number of colors
+
+Use consistent color palette
+
+Group similar items (e.g., “Other”)
+
+✔ Add Context:
+Each chart should answer a question:
+
+“What do I want the viewer to learn?”
+
+✔ Dashboard Summary Slide:
+Add a "Key Insights" page
+
+📤 Submission
+Push everything to GitHub:
+/Superstore-Visualization/
+├── Superstore.csv
+├── Dashboard.pdf / Screenshots/
+├── PowerBI.pbix / Tableau.twbx
+├── README.md
